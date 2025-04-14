@@ -26,6 +26,7 @@ jobs:
       - run: corepack enable
 
       - run: yarn install --immutable
+      - run: yarn run prepack
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_ORG_TOKEN}}
