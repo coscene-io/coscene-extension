@@ -1,7 +1,15 @@
 {
-  "name": "coscene-extension",
+  "name": "@coscene/extension",
   "version": "1.0.0-rc1",
   "license": "MIT",
+  "keywords": [
+    "coScene",
+    "coStudio",
+    "Honeybee",
+    "robotics",
+    "ros",
+    "visualization"
+  ],
   "author": {
     "name": "coScene"
   },
