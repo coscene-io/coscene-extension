@@ -13,6 +13,10 @@
   "scripts": {
     "prepack": "tsc -b tsconfig.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coscene-io/coscene-extension.git"
+  },
   "devDependencies": {
     "@foxglove/tsconfig": "2.0.0",
     "typescript": "5.6.3"
