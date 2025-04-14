@@ -14,8 +14,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4.2.2
-        with:
-          fetch-depth: 0
       - name: Configure Node.js
         uses: actions/setup-node@v4.1.0
         with:
