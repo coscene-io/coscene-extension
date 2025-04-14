@@ -1,0 +1,32 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@foxglove/tsconfig':
+        specifier: 2.0.0
+        version: 2.0.0
+      typescript:
+        specifier: 5.6.3
+        version: 5.6.3
+
+packages:
+
+  '@foxglove/tsconfig@2.0.0':
+    resolution: {integrity: sha512-tifun2tMxfA0wJ4caDKnLvAm+CpNdaK2BYD78w07GdgMsoeVMu0KxAiR7ehRoR3QN6DUW7XDP5J4DqMTj3YFag==}
+
+  typescript@5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  '@foxglove/tsconfig@2.0.0': {}
+
+  typescript@5.6.3: {}
